@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vincentmulonzi.dev"),
+  metadataBase: new URL("https://vincent-portfolio-alpha.vercel.app"),
   title: {
     default:
       "Vincent Mulonzi — IT Professional & Cybersecurity Practitioner | Nairobi",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_KE",
-    url: "https://vincentmulonzi.dev",
+    url: "https://vincent-portfolio-alpha.vercel.app",
     title: "Vincent Mulonzi — IT Professional & Cybersecurity Practitioner",
     description:
       "Full-stack developer and TVET CDACC-recognised Cybersecurity Assessment Verifier. Secure systems, fast interfaces, real results.",
@@ -41,6 +41,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  verification: {
+    google: "zwqlgb2G1tBwe1iMEXFDcm0VtGlYsoBKLyYP30KvVkU",
   },
 };
 
